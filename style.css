@@ -3,13 +3,12 @@
 	max-width: 1600px;
 	margin: 0 auto;
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
-	flex-wrap: wrap;
 }
 
 .logo {
 	width: 183px;
 	height: 32px;
-	z-index: 99;
+	z-index: 4;
 }
 
 .header {
@@ -17,6 +16,7 @@
 	height: 100vh;
 	min-height: 600px;
 	max-height: 756px;
+	min-width: 1600px;
 	max-width: 1600px;
 	width: 100%;
 }
@@ -79,19 +79,15 @@
 
 .description {
 	display: flex;
-	margin-top: 100px;
 	justify-content: center;
 	margin: 100px auto;
-	margin-bottom: 100px;
 }
 
 .two-columns {
 	width: 80%;
   	display: flex;
   	justify-content: space-between;
-  	margin: 0 auto;
-  	margin-top: 100px;
-  	margin-bottom: 100px;
+  	margin: 100 auto;
 }
 
 .main-text {
@@ -100,20 +96,17 @@
 }
 
 .two-columns__brief {
-	margin: 0;
 	padding: 0;
    	flex-direction: column;
 	width: 175px;
 	justify-content: flex-start;
 	color: #2f80ed;
-	line-weight: 1.2px;
+	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
 }
 
 .two-columns__span-accent {  
-	margin-top: 30px;
-	margin-bottom: 30px;
 	font-weight: 34px;
 	font-size: 24px;
 	font-weight: normal;
@@ -121,7 +114,6 @@
 
 .two-columns__paragraph {
   	padding: 0;
-  	margin: 0;
   	line-height: 34px;
   	font-size: 24px;
   	font-weight: normal;
@@ -132,33 +124,32 @@
 	/*   Section зона    */
 
 .digits {
-	position: relative;
-	margin: auto 100px;
+	margin: 100px auto;
 }
 
+			/* Два загаловка */
 .section__title {
-	position: relative;
+	display: flex;
+	justify-content: center;
 	line-height: 1.15;
 	font-size: 60px;
 	font-weight: bold;
-	width: 60%;
 	margin: 0 auto;
-	bottom: 70px;
-	left: 130px;
 }
 
 .section__subtitle {
-	position: relative;
+	display: flex;
+	justify-content: center;
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: normal;
-	width: 60%;
 	margin: 0 auto;
-	left: 310px;
-	margin-top: 0;
+	width: 60%;
+	margin-top: 70px;
+	margin-bottom: 0;
 }
 
-	/*Описание табличных элементов */
+	/* Описание табличных элементов */
 
 .table {
 	position: relative;
@@ -204,26 +195,32 @@
 	min-width: 1100px;
 	max-width: 1600px;
 	margin: 0;
+	min-height: 890px;
 	margin-top: 100px;
+	margin-bottom: 0;
 }
 
 .feynman__title {
-	position: relative;
-	width: 648px;
-	width: 100%;
+	display: flex;
+	position: relative;   
+	justify-content: center;
+	margin: 0 auto;
+	top: 140px;
 	height: auto;
-	line-height: 1.15px;
+	line-height: 1.15;
 	font-size: 120px;
 	font-weight: bold;
 	z-index: 2;
-	top: 140px;
-	margin-bottom: 70px;
+	width: 648px;
+	width: 60%;
 	text-align: center;
+
 }
 
 .feynman__subtitle {
-	position: relative;
-	top: 70px;
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
 	line-height: 51px;
 	font-size: 36px;
 	font-weight: normal;
@@ -234,17 +231,16 @@
 }
 
 .feynman__link {
-	position: relative;
+	position: absolute;
+	display: block;
 	color: #2f80ed;
 	text-decoration: none;
-	margin: 0;
-	margin-left: 520px;
-	margin-top: 50%;
-	bottom: 50%;
+	padding: 0;
 	line-height: 51px;
 	font-size: 36px;
 	font-weight: normal;
-	margin-right: 60px;
+	right: 48px;
+	text-align: end;
 }
 
 .feynman__image {
@@ -253,4 +249,161 @@
 	left: 0;
 	bottom: 0;
 	z-index: -1;
+	position: absolute;
+}
+
+.feynman__image {
+	position: relative;
+	width: 867px;
+	height: 637px;
+	left: 0;
+	z-index: -1;
+}
+
+
+
+		  /*       И так... Тут свойства элемента kaufman       */
+
+
+
+.kaufman {
+	position: relative;
+	margin: 0 auto;
+	background-color: #1f1f1f;
+	color: white;
+	display: block;
+	text-align: center;
+	padding-top: 90px;
+	z-index: 3;
+	overflow: hidden;
+}
+
+.section__title__theme_dark {
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.section__subtitle__theme_dark {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.table__theme_dark {
+	display: inline-grid;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-gap: 80px;
+	text-align: start;
+	margin-bottom: 90px;
+}
+
+.table__cell__theme_dark {
+	position: relative;
+	width: 200px;
+	width: 100%;
+	top: 80px;
+	bottom: 0;
+}
+
+.table__heading__theme_dark {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.table__text__theme_dark {
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.kaufman__triangle {
+	position: absolute;
+	height: 877px;
+	width: 877px;
+	top: 0;
+	right: -310px;
+	z-index: -2;
+}
+
+
+									/* Наконец последний блок футер, чуть чуть осталось */
+.footer {
+	min-height: 350px;
+	color: white;
+	background-color: #1f1f1f;
+	display: flex;
+}
+
+.logo_place_footer {
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.footer__columns {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	min-width: 1600px;
+}
+
+.footer__column-copyright {
+	display: flex;
+	order: 3;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-basis: 711px;
+}
+
+.footer__author {
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.footer__column-heading {
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.footer__column_content-info {
+	display: inline-block;
+	order: 1;
+	width: 130px;
+	margin:  0 auto;
+}
+
+.footer__column-links {
+	display: flex;
+	text-decoration: none;
+	color: white;
+}
+
+/*    Не ругайтесь пожалуйста, почему-то через атрибут <a> с ссылкой свойство "space-between" не работает, а вот на атрибут параграфа все нормально   */
+.footer__column-links:hover {
+	cursor: pointer;
+}
+
+.footer__column_content-social {
+	display: block;
+	order: -2;
+	width: 130px;
+	margin:  0 auto;
+	margin-right: 0;
+}
+
+.footer__social-icon {
+	margin-right: 5px;
 }
