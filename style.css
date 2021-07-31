@@ -14,11 +14,17 @@
 .header {
 	position: relative;
 	height: 100vh;
+<<<<<<< HEAD
 	min-height: 600px;
 	max-height: 756px;
 	min-width: 1600px;
 	max-width: 1600px;
 	width: 100%;
+=======
+	max-height: 756px;
+	min-width: 1600px;
+	vertical-align: center;
+>>>>>>> 7f38541 (first version 1.0.0 site)
 }
 
 .header__logo {
@@ -52,6 +58,11 @@
 .header__link {
 	text-decoration: none;
 	color: #2f80ed;
+<<<<<<< HEAD
+=======
+	margin-right: 48px;
+	margin-top: 50%;
+>>>>>>> 7f38541 (first version 1.0.0 site)
 }
 
 .header__main-illustration {
@@ -79,8 +90,21 @@
 
 .description {
 	display: flex;
+<<<<<<< HEAD
 	justify-content: center;
 	margin: 100px auto;
+=======
+<<<<<<< HEAD
+	margin-top: 100px;
+	justify-content: center;
+	margin: 100px auto;
+	margin-bottom: 100px;
+=======
+	margin: 100px auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+>>>>>>> 7f38541 (first version 1.0.0 site)
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 }
 
 .two-columns {
@@ -101,7 +125,16 @@
 	width: 175px;
 	justify-content: flex-start;
 	color: #2f80ed;
+<<<<<<< HEAD
 	line-height: 1.2;
+=======
+<<<<<<< HEAD
+	line-weight: 1.2px;
+=======
+	line-height: 1.2px;
+	width: 100%;
+>>>>>>> 7f38541 (first version 1.0.0 site)
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 	font-size: 18px;
 	font-weight: normal;
 }
@@ -124,7 +157,13 @@
 	/*   Section зона    */
 
 .digits {
+<<<<<<< HEAD
 	margin: 100px auto;
+=======
+<<<<<<< HEAD
+	position: relative;
+	margin: auto 100px;
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 }
 
 			/* Два загаловка */
@@ -144,9 +183,36 @@
 	font-size: 24px;
 	font-weight: normal;
 	margin: 0 auto;
+<<<<<<< HEAD
 	width: 60%;
 	margin-top: 70px;
 	margin-bottom: 0;
+=======
+	left: 310px;
+	margin-top: 0;
+=======
+	margin-bottom: 100px;
+}
+
+.section__title {
+	display: flex;
+	justify-content: center;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.section__subtitle {
+	display: flex;
+	justify-content: center;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0 auto;
+	margin-top: 70px;
+>>>>>>> 7f38541 (first version 1.0.0 site)
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 }
 
 	/* Описание табличных элементов */
@@ -190,6 +256,7 @@
 			/*Секция FEYNMAN*/
 
 .feynman {
+<<<<<<< HEAD
 	height: 890px;
 	height: 100%;
 	min-width: 1100px;
@@ -197,6 +264,7 @@
 	margin: 0;
 	min-height: 890px;
 	margin-top: 100px;
+<<<<<<< HEAD
 	margin-bottom: 0;
 }
 
@@ -206,6 +274,20 @@
 	justify-content: center;
 	margin: 0 auto;
 	top: 140px;
+=======
+=======
+	position: relative;
+	min-height: 890px;
+	margin-bottom: 0;
+>>>>>>> 7f38541 (first version 1.0.0 site)
+}
+
+.feynman__title {
+	position: relative;
+<<<<<<< HEAD
+	width: 648px;
+	width: 100%;
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 	height: auto;
 	line-height: 1.15;
 	font-size: 120px;
@@ -218,21 +300,52 @@
 }
 
 .feynman__subtitle {
+<<<<<<< HEAD
 	display: flex;
 	justify-content: center;
 	margin-top: 200px;
-	line-height: 51px;
-	font-size: 36px;
-	font-weight: normal;
+=======
+	position: relative;
+	top: 70px;
+=======
+	line-height: 1.15;
+	font-size: 120px;
+	font-weight: bold;
 	z-index: 2;
-	bottom: 0;
+	width: 648px;
+	top: 120px;
+	margin: 0 auto;
 	text-align: center;
 
 }
 
+.feynman__subtitle {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+>>>>>>> 7f38541 (first version 1.0.0 site)
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+	z-index: 2;
+<<<<<<< HEAD
+	bottom: 0;
+	text-align: center;
+=======
+	
+>>>>>>> 7f38541 (first version 1.0.0 site)
+
+}
+
 .feynman__link {
+<<<<<<< HEAD
 	position: absolute;
 	display: block;
+=======
+<<<<<<< HEAD
+	position: relative;
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 	color: #2f80ed;
 	text-decoration: none;
 	padding: 0;
@@ -249,7 +362,20 @@
 	left: 0;
 	bottom: 0;
 	z-index: -1;
+<<<<<<< HEAD
 	position: absolute;
+=======
+=======
+	position: absolute;
+	color: #2f80ed;
+	text-decoration: none;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: end;
+	right: 48px;
+	transform: translateY(50%);
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 }
 
 .feynman__image {
@@ -268,8 +394,14 @@
 
 .kaufman {
 	position: relative;
+<<<<<<< HEAD
 	margin: 0 auto;
 	background-color: #1f1f1f;
+=======
+	margin: auto 100px;
+	background-color: #1f1f1f;
+	margin: 0;
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 	color: white;
 	display: block;
 	text-align: center;
@@ -391,7 +523,11 @@
 	color: white;
 }
 
+<<<<<<< HEAD
 /*    Не ругайтесь пожалуйста, почему-то через атрибут <a> с ссылкой свойство "space-between" не работает, а вот на атрибут параграфа все нормально   */
+=======
+/*    Не ругайтесь пожалуйста, почему-то через атрибут параграфа свойство "space-between" не работает, а вот на атрибут с ссылкой нет.   */
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 .footer__column-links:hover {
 	cursor: pointer;
 }
@@ -406,4 +542,8 @@
 
 .footer__social-icon {
 	margin-right: 5px;
+<<<<<<< HEAD
+=======
+>>>>>>> 7f38541 (first version 1.0.0 site)
+>>>>>>> e6d5608c52600e88a53d64c8d7f8d32771089ffb
 }
